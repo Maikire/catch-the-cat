@@ -377,7 +377,7 @@
             }
             ,
             e.prototype.randomWall = function () {
-                for (var t = 0; t < 8; t++) {
+                for (var t = 0; t <= 18; t++) {
                     var e = Math.floor(this.w * Math.random())
                         , n = Math.floor(this.h * Math.random());
                     e === this.cat.i && n === this.cat.j || (this.getBlock(e, n).isWall = !0)
